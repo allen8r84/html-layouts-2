@@ -1,31 +1,71 @@
+/** {
+    border: 1px solid red;
+}*/
 html, body {
     width: 1024px;
     height: 100%;
     margin: 0;
 }
-.fullBody {
-    background: #D8D8D8;
+.main {
+    width: 100%;
     height: 95%;
-    padding: 20px 0px;
+    background: #D8D8D8;
+    padding:30px;
+    box-sizing: border-box;
 }
-.bodyHead, .bodyContent {
+.top {
+    height: 33.33%;
+    min-height: 150px;
+    margin: 0 0 10px 0;
+    padding: 15px;
+    box-sizing: border-box;
     background: #FFFFFF;
-    width: 85%;
-    margin: 0 auto;
 }
 .text {
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+.button {
+    height: 50px;
+    width: 100px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: sans-serif;
+    color: #fff;
+    padding: 15px 30px;    
+}
+.red {
+    background: #D0021B;
+}
+.blue {
+    background: #4A90E2;
+}
+.bottom {
+    height: 66.66%;
+    margin: 10px 0 0 0;
     padding: 15px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+}
+.image {
+    width: 100%;
+    height: 350px;
+    background: url(http://f80.bimmerpost.com/forums/attachment.php?attachmentid=1072521&stc=1&d=1407423578) no-repeat;
+    background-size: 100% 100%;
+    /* margin: 0 auto; */
 }
 .footer {
+    width: 100%;
     height: 5%;
     background: #333333;
-    padding: 10px;
-}
-.footerLink {
-    color: #FFFFFF;
-    float: right;
-    display: block;
-    margin: 20px;
+    box-sizing: border-box;
     position: relative;
-    right: 40px;
+}
+.link {
+    color: #fff;
+    padding: 15px;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    right: -850px;
 }
