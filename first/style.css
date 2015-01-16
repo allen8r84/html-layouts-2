@@ -5,6 +5,7 @@ html, body {
 }
 body {
     background: #FFFFFF;
+    padding: 20px;
 }
 .parentHead {
     width: 100%;
@@ -13,18 +14,17 @@ body {
 }
 .childHead {
     height: 100%;
-    width: 32%;
-    margin: 10px 5px;
-    float: left;
+    width: 33%;
+    display: inline-block;
 }
 .bodyText {
-   padding: 20px; 
+   padding: 20px 0px; 
 }
 .parentBody {
     max-width: 100%;
     height: 30%;
     box-sizing: border-box;
-    margin: 10px;
+    margin: 10px 0px;
 }
 .childBody__sm {
     height: 100%;
@@ -40,21 +40,21 @@ body {
     max-width: 100%;
     height: 15%;
     box-sizing: border-box;
-    margin: 10px;    
+    margin: 10px 0px 0px 0px;    
 }
 .childFooter__bg {
     height: 100%;
-    width: 66%;
+    width: 69%;
     float: left;
 }
 .childFooter__md {
     height: 100%;
-    width: 22%;
+    width: 25%;
     float: left;    
 }
 .childFooter__sm {
     height: 100%;
-    width: 6%;
+    width: 3%;
     float: left;    
 }
 .red {
